@@ -2,7 +2,7 @@ let title = document.querySelector('.title');
 let turn = 'x';
 let squares = [];
 function end(num1,num2,num3){
-    title.innerHTML = ’${squares[num1]} winner’;
+    title.innerHTML = `${squares[num1]} winner`;
     document.getElementById('item'+num1).style.background = '#000';
     document.getElementById('item'+num2).style.background = '#000';
     document.getElementById('item'+num3).style.background = '#000';
